@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/darker_gray"
+    tools:context=".GVResetActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MẬT KHẨU MỚI"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/gvcode_reset_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:id="@+id/password_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu mới"
+        android:layout_below="@+id/gvcode_reset_text"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/repassword_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:layout_below="@+id/password_reset"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo mật khẩu mới"
+        android:textSize="25dp"
+        android:layout_below="@+id/repassword_reset"
+        android:layout_marginTop="70dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context=".GVHomeActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="GIẢNG VIÊN"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gvcode_home"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnLopday"
+        android:background="#75A877"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Lớp dạy"
+        android:layout_width="180dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnBaitap"
+        android:background="#75A877"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Danh sách bài tập"
+        android:layout_width="180dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnDoipass"
+        android:background="#75A877"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Đổi mật khẩu"
+        android:layout_width="180dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnExit"
+        android:background="#75A877"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Đăng xuất"
+        android:layout_width="180dp"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
+

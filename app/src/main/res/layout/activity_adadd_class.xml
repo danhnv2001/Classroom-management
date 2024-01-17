@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADAddClassActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="THÊM LỚP HỌC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <EditText
+        android:id="@+id/etTenlop"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Tên lớp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etThu"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Thứ học"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etGiohoc"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Giờ học"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etPlace"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Địa điểm"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etNumbersv"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Số sinh viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etGvname"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Tên giảng viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etMagv"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Mã giảng viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btnAddclass"
+        android:layout_marginTop="20dp"
+        android:text="Thêm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

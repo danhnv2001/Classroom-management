@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADAddGvActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="THÊM GIẢNG VIÊN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:id="@+id/etMagv"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:hint="Mã giảng viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etTengv"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Tên giảng viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etNs"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Ngày sinh" />
+
+    <EditText
+        android:id="@+id/etGt"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Giới tính"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etSdt"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="SĐT"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/btnAddgv"
+        android:layout_marginTop="20dp"
+        android:text="Thêm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
+

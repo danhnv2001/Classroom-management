@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADUpdateGvActivity">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Cập nhật giảng viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/etupMagv"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Mã giảng viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etupTengv"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Tên giảng viên"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etupNs"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Ngày sinh"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etupGt"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Giới tính"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/etupSdt"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Số điện thoại"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etupEmail"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+
+    <Button
+        android:id="@+id/btnUpdateGv"
+        android:layout_marginTop="20dp"
+        android:text="Cập nhật"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GVAddExActivity">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="THÊM BÀI TẬP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+        android:id="@+id/ettenbai"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Tên bài"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etngayra"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Ngày ra"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ethanlam"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Hạn làm"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etnoidung"
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Nội dung"></EditText>
+    <Button
+        android:id="@+id/btnaddex"
+        android:layout_marginTop="10dp"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+

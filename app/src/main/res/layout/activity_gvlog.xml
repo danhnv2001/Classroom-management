@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:src="@drawable/classroom1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="14dp" />
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/teacher"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <EditText
+        android:id="@+id/etgvcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/icon"
+        android:layout_marginTop="40dp"
+        android:hint="Mã giảng viên"
+        android:ems="15"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/etgvcode"
+        android:layout_marginTop="25dp"
+        android:hint="Mật khẩu"
+        android:ems="15"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="10dp"/>
+
+
+    <Button
+        android:id="@+id/btndn"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:text="SIGN IN"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
+
+    <Button
+        android:id="@+id/btndk"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:text="SIGN UP"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintLeft_toRightOf="@+id/btndn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
+
+    <TextView
+        android:id="@+id/tvforgot"
+        app:layout_constraintTop_toBottomOf="@+id/btndk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Forgot Password?"
+        android:gravity="right"
+        android:textSize="23dp"
+        android:layout_marginTop="28dp"/>
+
+
+    <TextView
+        android:id="@+id/tvad"
+        app:layout_constraintTop_toBottomOf="@+id/tvforgot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Login as admin"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:layout_marginTop="17dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

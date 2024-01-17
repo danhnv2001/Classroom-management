@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClassManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".GVListStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVInforExActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVAddExActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVListExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVListClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVChangePassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVResetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADInforGvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADUpdateGvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADAddGvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADGvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADInforClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADUpdateClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADAddClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GVLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

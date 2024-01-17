@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/darker_gray"
+    tools:context=".GVChangePassActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐỔI MẬT KHẨU "
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"/>
+
+
+
+    <EditText
+        android:id="@+id/password_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu hiện tại"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/password_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu mới"
+        android:layout_below="@+id/password_now"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/repassword_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu mới"
+        android:layout_below="@+id/password_change"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu"
+        android:textSize="23dp"
+        android:layout_below="@+id/repassword_change"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>
+
